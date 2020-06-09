@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.common.DashboardActivity">
+
+
+    <com.stepstone.stepper.StepperLayout
+        android:id="@+id/stepperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarMain"
+        android:background="@color/grey_200"
+        app:ms_backButtonBackground="@android:color/transparent"
+        app:ms_backButtonColor="@color/colorPrimaryDark"
+        app:ms_completeButtonColor="@color/colorPrimaryDark"
+        app:ms_nextButtonColor="@color/colorPrimaryDark"
+        app:ms_showErrorMessageEnabled="true"
+        app:ms_showErrorStateEnabled="true"
+        app:ms_showErrorStateOnBackEnabled="true"
+        app:ms_stepperFeedbackType="tabs|disabled_bottom_navigation"
+        tools:ignore="NotSibling" />
+
+</RelativeLayout>

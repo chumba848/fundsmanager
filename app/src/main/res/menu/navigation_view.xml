@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Services">
+        <menu>
+
+            <item
+                android:id="@+id/nav_Home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="My Account" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="About Us" />
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/nav_board_ofDirectors"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

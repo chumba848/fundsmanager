@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Funds Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="developed_By">Developed By:</string>
+    <string name="name">Engineer Koskei</string>
+    <string name="srn_drawer_open">Open</string>
+    <string name="srn_drawer_close">Close</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="request_mpesaexpress">Request MPESAExpress</string>
+    <string name="srn_ex_no_menu_view">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
+    <string name="srn_ex_bad_content_view">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
+    <string name="success_message">Congratulation...Successfully Registered</string>
+    <string name="error_ID_exists">User already exists</string>
+    <string name="error_valid_no_password">Invalid Tradernumber or password</string>
+
+
+
+    <string name="qr_generator" translatable="false">QR Generator</string>
+    <string name="qr_scanner" translatable="false">QR Scanner</string>
+    <string name="scan_message">Scan a Barcode or QR Code</string>
+
+    <!-- Preference Titles -->
+    <string name="about_header">About</string>
+    <string name="update_header">Update</string>
+    <string name="help_header">Help</string>
+
+    <!-- About Preferences -->
+    <string name="about_summary">QR Barcode Scanner And Generator is the application that makes your work easier.\nWith the features of QR Scanner, QR Generator and OCR as well as share text to QR make this application more complete than ordinary QR scanners.\nDeveloped by Nandur93 Studio - Karawang, Indonesia.</string>
+
+    <!-- Update Preferences -->
+    <string name="update_title">Check for update</string>
+
+    <!-- Feedback Preferences -->
+    <string name="feedback_title">Feedback</string>
+    <string name="choose_email_client">Choose mailing client</string>
+    <string name="feedback_body">Feedback for</string>
+
+    <!-- Version Preferences -->
+    <string name="version_title">Version</string>
+    <string name="version_summary" translatable="false">1.0.0</string>
+    <string name="update_summary">Tap here to check for updates</string>
+    <string name="feedback_summary">Report technical issues or suggest new features</string>
+    <string name="menu_title_communicate">Communicate</string>
+    <string name="bitly_share" translatable="false">https://bit.ly/</string>
+    <string name="build_title" translatable="false">Build</string>
+    <string name="update_xml_resource" translatable="false">https://raw.githubusercontent.com/nandur93/QR-Barcode-Scanner-And-Generator/master/update-changelog.xml</string>
+    <string name="pattern_mailbody">\n\n-----------------------------\nPlease do not delete this section\nDevice OS: Android\nDevice OS version: {0}\nApp Version: {1} build {5}\nDevice Brand: {2}\nDevice Model: {3}\nDevice Manufacturer: {4}</string>
+    <string name="hashtag" translatable="false">#ocrtoqr</string>
+
+    <string name="title_activity_ocr" translatable="false">OCR ML KIT</string>
+    <string name="bitly_dynamic" translatable="false">ocrtoqr</string>
+    <string name="type_here_to_generate_qr">Type here to generate QR</string>
+    <string name="realtime_qr_generator" translatable="false">Realtime QR generator view</string>
+    <string name="button_scan_ocr" translatable="false">OCR to QR</string>
+    <string name="disableDeathOnFileUriExposure" translatable="false">disableDeathOnFileUriExposure</string>
+    <string name="regex" translatable="false"><![CDATA[[|?*<\":>+\\[\\]/\']]]></string>
+    <string name="action_text_to_qr">Text To QR Code</string>
+    <string name="sdcard_permission_declined">Access to SD Card is not granted, the application cannot save QR Code</string>
+    <string name="sdcard_permission_accepted">Access granted</string>
+    <string name="folder_directory" translatable="false">/OCR to QR/</string>
+    <string name="action_history">History</string>
+    <string name="action_scrolling" translatable="false">Scrolling</string>
+    <string name="action_delete" translatable="false">Delete all</string>
+    <string name="created_at" translatable="false">Created At:</string>
+    <string name="image_download_url" translatable="false">https://loremflickr.com/320/240</string>
+
+    <!-- AdMob -->
+    <string name="admob_app_id_sample" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_unit_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_native_unit_test" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="admob_app_id_real" translatable="false">ca-app-pub-4368595636314473~9675660688</string>
+    <string name="admob_banner_unit_real" translatable="false">ca-app-pub-4368595636314473/4970128915</string>
+    <string name="admob_native_unit_real" translatable="false">ca-app-pub-4368595636314473/5500805474</string>
+
+    <string name="quickstart_message" translatable="false">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+
+    <!--    Update notification-->
+    <string name="update_notification_channel_name" translatable="false">Update</string>
+    <string name="update_notification_channel_id" translatable="false">Update Channel</string>
+    <string name="subscribe_to_update" translatable="false">Subscribe To Update</string>
+    <string name="msg_subscribed_update" translatable="false">Subscribed to update topic</string>
+    <string name="msg_subscribe_update_failed" translatable="false">Failed to subscribe to update topic</string>
+
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="false">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed" translatable="false">Failed to subscribe to weather topic</string>
+    <string name="subscribe_to_weather" translatable="false">Subscribe To Weather</string>
+    <string name="msg_subscribed" translatable="false">Subscribed to weather topic</string>
+
+    <string name="log_token" translatable="false">Log Token</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message" translatable="false">FCM Message</string>
+
+    <!--    Sound setting-->
+    <string name="enable_sound" translatable="false">enable_sound</string>
+    <string name="enable_vibrate" translatable="false">enable_vibrate</string>
+    <string name="auto_scan" translatable="false">auto_scan</string>
+    <string name="switch_camera">switch_camera</string>
+    <string name="front_camera">1</string>
+    <string name="back_camera">0</string>
+    <string name="camera_list">camera_list</string>
+
+</resources>

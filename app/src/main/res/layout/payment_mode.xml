@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        tools:context=".Ui.activities.LoginActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bariol_regular"
+            android:text="Select Payment Mode"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/myaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:divider="#008000"
+            android:dividerHeight="1dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:fontFamily="@font/bariol_regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:listSelector="@color/white"
+            android:padding="10dp"
+            android:text="My Account"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/mpesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:divider="#008000"
+            android:dividerHeight="1dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:fontFamily="@font/bariol_regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:listSelector="@color/white"
+            android:padding="10dp"
+            android:text="Mpesa"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/creditcar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:fontFamily="@font/bariol_regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Debit/Credit card"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/airtelmoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:fontFamily="@font/bariol_regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Airtel Money"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/eazypay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:fontFamily="@font/bariol_regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Eazy Pay"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

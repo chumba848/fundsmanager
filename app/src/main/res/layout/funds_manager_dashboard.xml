@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200"
+    android:padding="@dimen/margin_normal"
+    tools:context=".ui.common.DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Select Function"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/ssselectfunction"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:overlapAnchor="false"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sstypeofaccount"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:overlapAnchor="false"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recipinetxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Select Recipient"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/ssRecipient"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:overlapAnchor="false"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tradertxtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Enter Trader Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTexttradername"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:focusable="false"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edit_text_gray"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Select Payment Mode"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/ssPaymentMode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:overlapAnchor="false"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/amounttxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Enter Amount"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextAmount"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_edit_text_gray"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/phonenumbertxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Enter Trader No"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_edit_text_gray"
+                android:inputType="text|number"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/oxygen_bold"
+            android:text="Enter Marikiti App Pin"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_edit_text_gray"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextpin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_edit_text_gray"
+                android:inputType="textPassword|number"
+                android:maxLength="4"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:text="Send"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
+

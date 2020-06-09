@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnselftopup"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Self Top Up"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/btm_tradertopup"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Trader To Up"
+        app:showAsAction="ifRoom" />
+
+</menu>
